@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Attacker.sol": "ISplitPayCTF"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Attacker.sol": {
+			"keccak256": "0xc38aa08b5172c2e4fbd597cd81ccbb2b17db0d0bfac763613330b0304be4fd79",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f2ab3b2fb0884934925579335c79a42d02498a2b4870f1b84beb64641d62f62",
+				"dweb:/ipfs/QmR5hVWgw8mxzpJNWme38RvjdCfeT1swwRwVezFAQjfPr2"
+			]
+		}
+	},
+	"version": 1
+}
